@@ -38,6 +38,9 @@ This modular breakdown allows us to **easily add more strategies or indicators**
 
 ## 🔍 Features
 
+![Smart Trading Dashboard - visual selection (2)](https://github.com/user-attachments/assets/4b793278-6481-46d1-bc55-da0e95b51e95)
+
+
 | Feature                        | Description                                                                 |
 |-------------------------------|-----------------------------------------------------------------------------|
 | ✅ Multi-symbol Support        | Analyze multiple stocks at once (`AAPL, MSFT, TSLA`)                        |
@@ -75,6 +78,8 @@ These are two of the **most widely used, easy-to-understand, and effective** ret
 ---
 
 ## 📂 Folder Structure
+
+![Smart Trading Dashboard - visual selection (1)](https://github.com/user-attachments/assets/01ef125c-8517-4884-99f4-bfdce4d7ca2e)
 
 ```
 smart-trading-dashboard/
@@ -210,6 +215,7 @@ Bollinger Bands, EMA, SMA, Volume: Commonly used indicators with high signal-to-
 
 These choices are educational and practical, perfect for both learning and real-world simulation. The codebase is also ready to expand with more advanced strategies like MACD or Ichimoku.
 
+![Smart Trading Dashboard - visual selection](https://github.com/user-attachments/assets/adf0c453-71e8-4a29-9ea8-f7317a7efc48)
 
 
 ---
