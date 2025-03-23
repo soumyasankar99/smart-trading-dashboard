@@ -38,7 +38,8 @@ This modular breakdown allows us to **easily add more strategies or indicators**
 
 ## 🔍 Features
 
-![Smart Trading Dashboard - visual selection (2)](https://github.com/user-attachments/assets/4b793278-6481-46d1-bc55-da0e95b51e95)
+![Smart Trading Dashboard - visual selection (3)](https://github.com/user-attachments/assets/7ba5fa92-6642-4da6-9fa8-957e22c9615a)
+
 
 
 | Feature                        | Description                                                                 |
