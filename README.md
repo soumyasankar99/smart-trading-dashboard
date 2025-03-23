@@ -1,13 +1,13 @@
 
 # Smart Trading Dashboard
 
-An **interactive trading assistant** built with **Streamlit**, powered by **Backtrader** and **yFinance**, that brings technical analysis and backtesting to your fingertips — no coding required.
+An **interactive trading assistant** built with **Streamlit**, powered by **Backtrader** and **yFinance**, that brings technical analysis and backtesting to your fingertips - no coding required.
 
 ---
 
 ## 🚀 Project Overview
 
-In today’s market, traders rely on tools like **TradingView**, but few platforms combine **backtesting**, **multi-stock analysis**, and **indicator customization** in one minimalist UI. This project was born out of the idea to bridge that gap — to create a **zero-setup, fully interactive dashboard** where you can:
+In today’s market, traders rely on tools like **TradingView**, but few platforms combine **backtesting**, **multi-stock analysis**, and **indicator customization** in one minimalist UI. This project was born out of the idea to bridge that gap - to create a **zero-setup, fully interactive dashboard** where you can:
 
 - 🧠 Explore indicators like RSI, SMA, EMA, Bollinger Bands  
 - 🛠️ Backtest common strategies like RSI-based and SMA crossover  
