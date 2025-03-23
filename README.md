@@ -123,6 +123,66 @@ streamlit run app.py
 | Streamlit UI crashes on strategy | Modularized code and ensured strategies are only run if selected         |
 | Performance issues for large data| Optimized plotting with **Matplotlib** and deferred unnecessary logic    |
 
+
+🧗‍♂️ Development Journey: Mistakes, Fixes & Lessons Learned
+While building this, I encountered several tricky bugs and conceptual gaps that taught me a lot. Here’s a transparent breakdown — so that if you're following along, you’re better prepared:
+
+❌ Mistake 1: Wrong Date Range Caused No Data
+Problem: Users could accidentally pick an end date before the start date, or select future dates, which caused empty dataframes.
+
+Fix:
+
+Added date validation logic
+
+Used clear Streamlit error messages to guide users
+
+❌ Mistake 2: "Data must be 1-dimensional" Error
+Problem: Indicator logic (especially EMA/SMA) returned ndarray instead of 1D Series expected by plotting functions.
+
+Fix:
+
+Flattened data using .ravel() or used .squeeze() when applying NumPy methods
+
+Ensured that matplotlib and Streamlit always receive a 1D data input
+
+❌ Mistake 3: “Only length-1 arrays can be converted to Python scalars”
+Problem: While using ax.plot_date() or setting cerebro.adddata(), I was passing arrays not indexed properly.
+
+Fix:
+
+Used .iloc to ensure only one row at a time was processed
+
+Adjusted DataFrame formats to match Backtrader expectations (DatetimeIndex with 'Open', 'High', 'Low', 'Close', 'Volume')
+
+❌ Mistake 4: Only One Strategy Showing in UI
+Problem: Even though I wrote multiple strategies, only "RSI Strategy" was showing in the dropdown.
+
+Fix:
+
+Strategy list was hardcoded in Streamlit form
+
+Replaced with a dynamic list pulling from strategies.py dictionary
+
+❌ Mistake 5: Backtrader Plot Not Working in Streamlit
+Problem: Backtrader uses its own matplotlib canvas — it doesn't render directly in Streamlit.
+
+Fix:
+
+Replaced cerebro.plot() with custom matplotlib plots
+
+Used matplotlib directly inside Streamlit with st.pyplot(fig)
+
+🔬 Why These Strategies?
+RSI Strategy: One of the most popular momentum indicators; great for oversold/overbought detection
+
+SMA Crossover: Simple but powerful trend strategy; perfect for learning about crossovers
+
+Bollinger Bands, EMA, SMA, Volume: Commonly used indicators with high signal-to-noise ratio
+
+These choices are educational and practical, perfect for both learning and real-world simulation. The codebase is also ready to expand with more advanced strategies like MACD or Ichimoku.
+
+
+
 ---
 
 ## 🔭 Future Improvements
