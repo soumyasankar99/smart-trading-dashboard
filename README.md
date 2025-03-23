@@ -80,7 +80,8 @@ These are two of the **most widely used, easy-to-understand, and effective** ret
 
 ## 📂 Folder Structure
 
-![Smart Trading Dashboard - visual selection (1)](https://github.com/user-attachments/assets/01ef125c-8517-4884-99f4-bfdce4d7ca2e)
+![Smart Trading Dashboard - visual selection (4)](https://github.com/user-attachments/assets/51b6b75b-c01c-481d-b372-12c12a2e86fc)
+
 
 ```
 smart-trading-dashboard/
@@ -216,7 +217,7 @@ Bollinger Bands, EMA, SMA, Volume: Commonly used indicators with high signal-to-
 
 These choices are educational and practical, perfect for both learning and real-world simulation. The codebase is also ready to expand with more advanced strategies like MACD or Ichimoku.
 
-![Smart Trading Dashboard - visual selection](https://github.com/user-attachments/assets/adf0c453-71e8-4a29-9ea8-f7317a7efc48)
+![Smart Trading Dashboard - visual selection (5)](https://github.com/user-attachments/assets/33d2611d-3a3b-4e22-9502-ad4e80b0742c)
 
 
 ---
