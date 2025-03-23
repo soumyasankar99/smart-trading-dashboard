@@ -97,16 +97,14 @@ cd smart-trading-dashboard
 🪟 On Windows:
 
 ```bash
-Copy
-Edit
+
 python -m venv trading_env
 trading_env\Scripts\activate
 ```
 🍏 On macOS:
 
 ```bash
-Copy
-Edit
+
 python3 -m venv trading_env
 source trading_env/bin/activate
 ```
@@ -114,8 +112,7 @@ source trading_env/bin/activate
 🐧 On Linux:
 
 ```bash
-Copy
-Edit
+
 python3 -m venv trading_env
 source trading_env/bin/activate
 ```
@@ -125,15 +122,13 @@ chmod +x trading_env/bin/activate and re-run the source command.
 
 ### 3. Install Python Dependencies
 ```bash
-Copy
-Edit
+
 pip install -r requirements.txt
 ```
 
 ### 4. Run the Streamlit App
 ```bash
-Copy
-Edit
+
 streamlit run app.py
 ```
 > The app will automatically open in your browser at http://localhost:8501.
