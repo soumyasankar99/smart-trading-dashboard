@@ -49,6 +49,12 @@ This modular breakdown allows us to **easily add more strategies or indicators**
 | ✅ Volume Toggle               | Add volume to charts with a switch                                         |
 | ✅ Log Scale Toggle            | Helpful for long-term chart viewing                                        |
 
+<img width="958" alt="stock" src="https://github.com/user-attachments/assets/759d47bd-88e5-41f9-ac8e-288febd4168d" />
+
+
+<img width="963" alt="stock-1" src="https://github.com/user-attachments/assets/9dc51cb9-f625-4bee-9145-296f276d1d13" />
+
+
 ---
 
 ## 🧪 Current Strategies
@@ -81,6 +87,7 @@ smart-trading-dashboard/
 ├── requirements.txt
 └── README.md
 ```
+<img width="959" alt="stock-2" src="https://github.com/user-attachments/assets/33026161-44fd-4547-97a5-fac90e5ce7a9" />
 
 ---
 
