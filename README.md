@@ -63,15 +63,32 @@ This modular breakdown allows us to **easily add more strategies or indicators**
 
 ## 🧪 Current Strategies
 
-### 1. **RSI Strategy**
-- **Buy** when RSI < 30  
-- **Sell** when RSI > 70  
-Ideal for detecting oversold/overbought conditions.
 
-### 2. **SMA Crossover Strategy**
-- **Buy** when SMA(20) crosses above SMA(50)  
-- **Sell** when SMA(20) crosses below SMA(50)  
-Captures **trend reversals** and momentum signals.
+### 📉 1. RSI Strategy – Catching Overbought & Oversold Zones
+RSI (Relative Strength Index) is a momentum oscillator that measures the speed and change of price movements on a scale from 0 to 100.
+
+Buy Signal: When RSI < 30
+This suggests the asset is oversold—meaning selling pressure may be overdone and a price reversal could be near.
+
+Sell Signal: When RSI > 70
+This indicates the asset is overbought, and there may be an upcoming pullback or correction.
+
+✅ Why it works: Traders use RSI to identify possible reversal points. When everyone’s selling or buying too aggressively, the market tends to correct itself.
+
+### 📈 2. SMA Crossover Strategy – Spotting Trend Shifts
+SMA (Simple Moving Average) smooths out price data over a specific period.
+
+SMA(20) tracks short-term price movements
+
+SMA(50) tracks medium-term trends
+
+Buy Signal: When SMA(20) crosses above SMA(50)
+This is a bullish crossover, signaling upward momentum and the potential start of a trend.
+
+Sell Signal: When SMA(20) crosses below SMA(50)
+This is a bearish crossover, suggesting a potential downtrend.
+
+✅ Why it works: This strategy is trend-following—it doesn’t try to predict the market but instead confirms trend direction and helps you ride the wave.
 
 > 🧠 *Why only these two?*  
 These are two of the **most widely used, easy-to-understand, and effective** retail trading strategies. Their simplicity makes them great for beginners and easy to visualize during backtesting.
