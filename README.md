@@ -89,28 +89,54 @@ smart-trading-dashboard/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/smart-trading-dashboard.git
+git clone https://github.com/soumyasankar99/smart-trading-dashboard.git
 cd smart-trading-dashboard
 ```
 
-### 2. Create and activate a virtual environment
+### 2. Create and Activate a Virtual Environment
+🪟 On Windows:
 
 ```bash
+Copy
+Edit
 python -m venv trading_env
-source trading_env/bin/activate  # On Windows: trading_env\Scripts\activate
+trading_env\Scripts\activate
+```
+🍏 On macOS:
+
+```bash
+Copy
+Edit
+python3 -m venv trading_env
+source trading_env/bin/activate
 ```
 
-### 3. Install dependencies
+🐧 On Linux:
 
 ```bash
+Copy
+Edit
+python3 -m venv trading_env
+source trading_env/bin/activate
+```
+
+> ⚠️ If you face any permission denied error on Linux/macOS, try:
+chmod +x trading_env/bin/activate and re-run the source command.
+
+### 3. Install Python Dependencies
+```bash
+Copy
+Edit
 pip install -r requirements.txt
 ```
 
-### 4. Run the application
-
+### 4. Run the Streamlit App
 ```bash
+Copy
+Edit
 streamlit run app.py
 ```
+> The app will automatically open in your browser at http://localhost:8501.
 
 ---
 
